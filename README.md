@@ -95,18 +95,14 @@ bun run preview
 
 ## Screenshots
 
-Add your own screenshot images and live links below.
-
 | #   | Description                                                      | Screenshot                                                               | Live link          |
 | --- | ---------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------ |
-| 1   | Homepage – Screen Share Test App                                 | ![Screenshot 1](https://placehold.co/800x500?text=Homepage)              | [Add live link](#) |
-| 2   | Homepage – browser unsupported message                           | ![Screenshot 2](https://placehold.co/800x500?text=Browser+Unsupported)   | [Add live link](#) |
-| 3   | Screen Test – idle / before share                                | ![Screenshot 3](https://placehold.co/800x500?text=Screen+Test+Idle)      | [Add live link](#) |
-| 4   | Screen Test – requesting permission (loading)                    | ![Screenshot 4](https://placehold.co/800x500?text=Requesting+Permission) | [Add live link](#) |
-| 5   | Screen Test – live preview + metadata (resolution, display type) | ![Screenshot 5](https://placehold.co/800x500?text=Live+Preview)          | [Add live link](#) |
-| 6   | Screen Test – stopped state (Retry + Back to Home)               | ![Screenshot 6](https://placehold.co/800x500?text=Stopped+State)         | [Add live link](#) |
-
-Replace the placeholder image URLs and “Add live link” with your actual screenshot links and deployment URL.
+| 1   | Homepage – Screen Share Test App                                 | ![Screenshot 1](https://res.cloudinary.com/db5d9twmj/image/upload/v1771652677/Screenshot_2026-02-21_114209_hlzuwg.png)
+| 2   | Homepage – browser unsupported message                           | ![Screenshot 2](https://res.cloudinary.com/db5d9twmj/image/upload/v1771652674/Screenshot_2026-02-21_114219_ddi1dc.png)
+| 3   | Screen Test – idle / before share                                | ![Screenshot 3](https://res.cloudinary.com/db5d9twmj/image/upload/v1771652670/Screenshot_2026-02-21_114253_m9lwbv.png)
+| 4   | Screen Test – requesting permission (loading)                    | ![Screenshot 4](https://res.cloudinary.com/db5d9twmj/image/upload/v1771652669/Screenshot_2026-02-21_114309_rg1iks.png)
+| 5   | Screen Test – live preview + metadata (resolution, display type) | ![Screenshot 5](https://res.cloudinary.com/db5d9twmj/image/upload/v1771652668/Screenshot_2026-02-21_114317_vfgcx9.png)
+| 6   | Screen Test – stopped state (Retry + Back to Home)               | ![Screenshot 6](https://res.cloudinary.com/db5d9twmj/image/upload/v1771652819/Screenshot_2026-02-21_114650_evxwuk.png)
 
 ---
 
