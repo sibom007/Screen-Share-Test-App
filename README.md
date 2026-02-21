@@ -120,18 +120,3 @@ Replace the placeholder image URLs and “Add live link” with your actual scre
 - **Single tab/window:** Only one screen-share session is supported at a time; retry starts a completely new request and releases previous tracks.
 
 ---
-
-## Submission
-
-- **Repository:** [Public GitHub repository URL]
-- **Live deployment:** [Your live deployment URL]
-- **README:** Includes setup instructions, screen-sharing flow explanation, screenshots (see above), and known limitations.
-
----
-
-## What Was Implemented to Meet the Requirements
-
-- **Part A (Homepage):** Static homepage with title “Screen Share Test App”, “Start Screen Test” button, and **before navigation** check for `getDisplayMedia` support with an **inline browser-unsupported message** when not supported.
-- **Part B (Screen Test):** Distinct states for requesting, granted, user cancelled, denied, and unknown error; live `<video>` preview; display type and resolution from `track.getSettings()`; `track.onended` for lifecycle detection; immediate UI update and full track/video cleanup when stream ends.
-- **Part C (End/Retry):** “Screen sharing stopped” message; **Retry Screen Test** and **Back to Home** buttons; retry uses a fresh `getDisplayMedia` request with no reuse of old streams or track leaks.
-- **Quality:** Screen-sharing logic in **`useScreenShare`** hook; reusable **Button**; proper unmount cleanup via `useEffect` and a stream ref so the latest stream is always released.
