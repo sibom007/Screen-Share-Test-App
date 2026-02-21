@@ -76,7 +76,7 @@ export function HomePage() {
           </div>
 
           {/* RIGHT INFO CARD */}
-          <Card className="p-6 bg-card/60 border border-border/50 backdrop-blur-xl shadow-xl">
+          <Card className="p-6 bg-card/60 border border-border/50  shadow-xl ">
             <h3 className="text-xl font-semibold mb-4">
               What This Test Checks
             </h3>

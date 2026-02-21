@@ -5,7 +5,6 @@ import { ScreenPreviewCard } from "@/feature/screen/components/screen-preview-ca
 import { ScreenControlsCard } from "@/feature/screen/components/screen-controls-card";
 import { ScreenErrorAlert } from "@/feature/screen/components/screen-error-alert";
 import { ScreenMetadataCard } from "@/feature/screen/components/screen-metadata-card";
-import { StopConfirmDialog } from "@/feature/screen/components/stop-confirm-dialog";
 
 export default function ScreenTestPage() {
   const navigate = useNavigate();
@@ -34,7 +33,7 @@ export default function ScreenTestPage() {
             <ScreenControlsCard
               state={screen.state}
               onStart={screen.startScreenShare}
-              onStop={screen.requestStop}
+              onConfirmStop={screen.confirmStop}
               onBackToHome={() => navigate("/")}
             />
 
@@ -52,12 +51,6 @@ export default function ScreenTestPage() {
           </div>
         </div>
       </section>
-
-      <StopConfirmDialog
-        open={screen.showStopConfirm}
-        onCancel={screen.cancelStop}
-        onConfirm={screen.confirmStop}
-      />
     </main>
   );
 }
